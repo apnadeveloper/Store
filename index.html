@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Rubik+Mono+One&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+  <title>Restaurant - 2024</title>
+</head>
+<style>
+  *{
+    margin:0px;
+    padding:0px;
+  }
+  body {
+    overflow-x: hidden;
+  }
+
+  .nav-link:hover {
+    color: orange;
+  }
+
+  .nav-link {
+    color: white;
+  }
+
+  .archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .navbar {
+    background-color: black;
+  }
+
+  .card:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+  }
+
+  .card {
+    box-shadow: 0px 8px 10px 0px gray;
+    z-index: 1;
+  }
+
+  .playwrite-us-trad-uniquifier {
+    font-family: "Playwrite US Trad", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  .yoyo{
+    animation: rost 10s infinite linear;
+  }
+  @keyframes rost{
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+</style>
+<body>
+  <div class="container-fluid">
+  <!-- header-- -->
+  <section style="font-family:Rubik, sans-serif;">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-1 fw-bold" href="#" style="color: orange;"> <i class="fa-solid fa-utensils"
+            style="color: orange;"></i> Restaurant - 2024</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav  ms-auto my-2 my-lg-0 navbar-nav-scroll navbar-under-line">
+            <li class="nav-item">
+              <a class="nav-link active  fw-bold" style="color: orange;" aria-current="page" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="service.html"> SERVICE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html">MENU</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                PAGES
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="booking.html">Booking</a></li>
+                <li><a class="dropdown-item" href="our team.html">Our Team</a></li>
+                <li><a class="dropdown-item" href="testimonial.html">Testimonial</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link button text-center" style="color: white; background-color: orange; padding: 10px;"
+                href="http://google.com">BOOK A TABLE</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <section style="font-family:Rubik, sans-serif; background-color: black;">
+    <div>
+      <div class="row my-5">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-center" style="margin-top: 150px;" data-aos="fade-right"
+          data-aos-offset="300" data-aos-easing="ease-in-sine">
+          <h1 class=" display-3  fw-bold archivo-black-regular text-white">Enjoy Our <br>Delicious Meal</h1>
+          <p align="justify" class="text-center text-white">Shashlik was originally made of
+            lamb, but nowadays it is also made of
+            pork, beef, chicken or venison, depending on local preferences and religious observances. The skewers are
+            either threaded with meat only, or with alternating pieces of meat, fat, and vegetables, such as bell
+            pepper, onion, mushroom and tomato.</p>
+          <a href="http://google.com"> <button type="button" class="button text-center text-white"
+              style="background-color: orange; padding: 15px; border: orange;">BOOK A TABLE </button> </a>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6" style="margin-top: 100px; margin-bottom: 100px;">
+          <img width="60%" src="images/piza.jpg" alt="" class="text-center yoyo" srcset="" style="margin-left: 80px;">
+        </div>
+      </div>
+  </section>
+  <!-- end header-- -->
+   <!-- our services-- -->
+   <h5 class=" playwrite-us-trad-uniquifier fw-bold text-center" style="color: orange;" data-aos="fade-up" data-aos-duration="1000">________ Our Services ________ </h5>
+   <h1 class="text-center fw-bold">Explore Our Services</h1>
+  <center>
+    <div class="row row-cols-1 row-cols-md-4 g-4 my-5 container">
+      <div class="col" data-aos="fade-up" data-aos-duration="1000">
+        <div class="card">
+          <div class="card-body">
+            <i class="fa-solid fa-user-tie fa-5x" style="color:orange;"></i>
+            <h5 class="card-title fw-bold">Master Chefs</h5>
+            <p align="justify" class="card-text">MasterChef is an American competitive cooking reality. Produced by
+              North America and One Potato Two Potato, home chefs competing to win the title of 'MasterChef'.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col" data-aos="fade-up" data-aos-duration="1000">
+        <div class="card">
+          <div class="card-body">
+            <i class="fa-solid fa-utensils fa-5x" style="color: orange;"></i>
+            <h5 class="card-title fw-bold">Quality Food</h5>
+            <p align="justify" class="card-text">Food is for nutritional support. Food is usually of plant, animal, or
+              fungal origin and contains essential nutrients such as carbohydrates, fats, proteins, vitamins, or
+              minerals.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col" data-aos="fade-up" data-aos-duration="1000">
+        <div class="card">
+          <div class="card-body">
+            <i class="fa-solid fa-cart-plus fa-5x" style="color:orange;"></i>
+            <h5 class="card-title fw-bold">Online Order</h5>
+            <p align="justify" class="card-text">Online food ordering is the process of ordering food, for delivery or
+              pickup, from a website. The product can be either ready-to-eat food or others.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col" data-aos="fade-up" data-aos-duration="1000">
+        <div class="card">
+          <div class="card-body">
+            <i class="fa-solid fa-headset fa-5x" style="color: orange;"></i>
+            <h5 class="card-title fw-bold">24/7 Service</h5>
+            <p align="justify" class="card-text">The foodservice or catering industry includes the businesses and
+              companies which prepare meals. It includes restaurants, grocery stores,catering operations.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </center>
+  <!-- end services-- -->
+  <!-- about-- -->
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 py-5" data-aos="fade-up" data-aos-duration="1000">
+        <div class="row g-3">
+          <div class="col-6 text-start">
+            <img width="100%" src="images/about-1.jpg" alt="" srcset="" class="img-fluid " data-aos="zoom-in">
+          </div>
+          <div class="col-6 text-start">
+            <img width="80%" src="images/about-2.jpg" alt="" srcset="" class="img-fluid " style="margin-top: 20%;"
+              data-aos="zoom-in">
+          </div>
+          <div class="col-6 text-end">
+            <img width="70%" src="images/about-3.jpg" alt="" srcset="" class="img-fluid " data-aos="zoom-in">
+          </div>
+          <div class="col-6 text-end">
+            <img width="100%" src="images/about-4.jpg" alt="" srcset="" class="img-fluid " data-aos="zoom-in">
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6" style="margin-top: 12%;" data-aos="fade-up" data-aos-duration="1000">
+        <h5 class=" playwrite-us-trad-uniquifier fw-bold" style="color: orange;" data-aos="fade-up" data-aos-duration="1000">About Us ________ </h5>
+        <h1 class=" fw-bold">Welcome to <i class="fa-solid fa-utensils" style="color: orange;" data-aos="fade-up" data-aos-duration="1000"></i> Restoran
+        </h1>
+        <p align="justify" data-aos="zoom-out"  data-aos-duration="3000">A restaurant is a business that prepares and serves food and drinks to customers. Meals are generally served
+          and eaten on the premises, but many restaurants also offer take-out and food delivery services.</p>
+          <br>
+          <p align="justify" data-aos="zoom-out"  data-aos-duration="3000">Eating in the restaurant is one of the good things. Since childhood, we did not encourage eating in restaurants a lot due to the loss of beneficial nutrients. The orders are always saturated with oils and fats</p>
+          <div class="row">
+            <div class="col-sm-6" >
+              <div class="d-flex align-items-center border-start border-5 px-3 border-black">
+                <h1 style="color: orange;" class="fw-bold" >15</h1>
+                <div class="ms-4">
+                  <p class="mb-0 ms-4">Years of</p>
+                  <h6> <strong>EXPERIENCE</strong></h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center border-start border-5 px-3 border-black">
+                <h1 style="color: orange;" class="fw-bold" >50</h1>
+                <div class="ms-4">
+                  <p class="mb-0">Popular</p>
+                  <h6 class="text-uppercase"> <strong>MASTER CHEFS</strong></h6>
+                </div>
+              </div>
+            </div>
+            <a href="http://google.com"> <button type="button" class="btn py-3 px-5 mt-5" style="color: white; background-color: orange;">READ MORE</button></a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <!-- end about-- -->
+   <!-- menu-- -->
+    <div class="container">
+    <h5 class="playwrite-us-trad-uniquifier fw-bold  text-center" style="color: orange;">________Food Menu________ </h5>
+    <h1 class="text-center fw-bold">Most Popular Items</h1>
+      <div class="d-flex flex-row mb-3 justify-content-center" data-aos="fade-up">
+        <div class="p-5"> <i class="fa-solid fa-mug-saucer fa-2x ms-2" style="color: orange;"></i>
+          <h6>Popular Breakfast</h6></div>
+        <div class="p-5"> <i class="fa-solid fa-burger fa-2x ms-2" style="color: orange;"></i>
+          <h6>Special Lunch</h6></div>
+        <div class="p-5"> <i class="fa-solid fa-utensils fa-2x ms-2" style="color: orange;"></i>
+          <h6>Lovely Dinner</h6></div>
+        </div>
+        <center>
+        <hr class="w-50">
+      </center>
+  <!-- </div> -->
+  <div class="container"  data-aos="fade-up">
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col">
+            <img src="https://themewagon.github.io/restoran/img/menu-1.jpg" alt="" srcset="" class="img-fluid"> </div>
+            <div class="col">
+              <h5 class="fw-bold">Chicken Fajita <span style="float: right; color: orange;">$500</span></h5>
+              <hr class="w-100">
+              <p>Lorem, ipsum dolor consectetur Lorem ipsum dolor sit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col">
+              <img src="https://themewagon.github.io/restoran/img/menu-3.jpg" alt="" srcset="" class="img-fluid"> </div>
+              <div class="col">
+                <h5 class="fw-bold">Chicken Shashlic <span style="float: right; color: orange;">$445</span></h5>
+                <hr class="w-100">
+                <p>Lorem, ipsum dolor consectetur Lorem ipsum dolor sit.</p>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col">
+            <img src="https://themewagon.github.io/restoran/img/menu-5.jpg" alt="" srcset="" class="img-fluid"> </div>
+            <div class="col">
+              <h5 class="fw-bold">Chicken Chowmin <span style="float: right; color: orange;">$300</span></h5>
+              <hr class="w-100">
+              <p>Lorem, ipsum dolor consectetur Lorem ipsum dolor sit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col">
+              <img src="https://themewagon.github.io/restoran/img/menu-7.jpg" alt="" srcset="" class="img-fluid"> </div>
+              <div class="col">
+                <h5 class="fw-bold">Chicken Pizza <span style="float: right; color: orange;">$125</span></h5>
+                <hr class="w-100">
+                <p>Lorem, ipsum dolor consectetur Lorem ipsum dolor sit.</p>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col">
+            <img src="https://themewagon.github.io/restoran/img/menu-2.jpg" alt="" srcset="" class="img-fluid"> </div>
+            <div class="col">
+              <h5 class="fw-bold">Chicken Grill <span style="float: right; color: orange;">$315</span></h5>
+              <hr class="w-100">
+              <p>Lorem, ipsum dolor consectetur Lorem ipsum dolor sit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col">
+              <img src="https://themewagon.github.io/restoran/img/menu-4.jpg" alt="" srcset="" class="img-fluid"> </div>
+              <div class="col">
+                <h5 class="fw-bold">Chicken Kabab <span style="float: right; color: orange;">$465</span></h5>
+                <hr class="w-100">
+                <p>Lorem, ipsum dolor consectetur Lorem ipsum dolor sit.</p>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col">
+            <img src="https://themewagon.github.io/restoran/img/menu-6.jpg" alt="" srcset="" class="img-fluid"> </div>
+            <div class="col">
+              <h5 class="fw-bold">Chicken Fries <span style="float: right; color: orange;">$115</span></h5>
+              <hr class="w-100">
+              <p>Lorem, ipsum dolor consectetur Lorem ipsum dolor sit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col">
+              <img src="https://themewagon.github.io/restoran/img/menu-8.jpg" alt="" srcset="" class="img-fluid"> </div>
+              <div class="col">
+                <h5 class="fw-bold">Chicken Brost <span style="float: right; color: orange;">$915</span></h5>
+                <hr class="w-100">
+                <p>Lorem, ipsum dolor consectetur Lorem ipsum dolor sit.</p>
+              </div>
+            </div>
+          </div>
+  </div>
+  <!-- end menu-- -->
+  <!-- booking-- -->
+   <div class="row py-5">
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6" data-aos="fade-up" data-aos-duration="1000">
+      <iframe width="700" height="500" src="https://www.youtube.com/embed/H3R1y1ADCZw?si=MW7AL4Y6o1is7U2g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>      
+    </div>
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6 " style="background-color: rgb(3, 3, 58);" data-aos="fade-up" data-aos-duration="1000">
+      <h6 class=" playwrite-us-trad-uniquifier fw-bold" style="color: orange;">Reservation_______</h6>
+      <h1 class="fw-bold text-white">Book A Table Online</h1>
+      <div class="row g-2 container py-3">
+        <div class="col-sm-6 py-2">
+          <div class="form-floating">
+            <input type="text" class="form-control" id="floatingInputGrid" >
+            <label for="floatingInputGrid">Your Name</label>
+          </div>
+        </div>
+        <div class="col-sm-6 py-2">
+          <div class="form-floating">
+            <input type="email" class="form-control" id="floatingInputGrid" >
+            <label for="floatingInputGrid">Your Email</label>
+          </div>
+        </div>
+        <div class="col-sm-6 py-2">
+          <div class="form-floating">
+            <input type="datetime" class="form-control" id="floatingInputGrid" >
+            <label for="floatingInputGrid">Date & Time</label>
+          </div>
+        </div>
+        <div class="col-sm-6 py-2">
+          <div class="form-floating">
+            <select class="form-select" id="floatingSelectGrid">
+              <!-- <option selected>No of People</option> -->
+              <option value="1">People 1</option>
+              <option value="2">People 2</option>
+              <option value="3">People 3</option>
+            </select>
+            <label for="floatingSelectGrid">No of People</label>
+          </div>
+        </div>
+        <div class="col-sm-12 py-2">
+          <div class="form-floating">
+           <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" ></textarea>
+           <label for="floatingTextarea2">Special Request</label>
+         </div>
+       </div>
+       <div class="col-sm-12 py-2">
+        <button type="button" class="btn text-center py-3 px-3" style="color: white; background-color: orange; width: 100%;">BOOK NOW</button>
+       </div>
+     </div>
+      </div>
+    </div>
+   </div>
+   <!-- end booking-- -->
+    <!-- team-- -->
+     <div class="container">
+     <h6 class="text-center playwrite-us-trad-uniquifier fw-bold mt-5" style="color: orange;" data-aos="fade-up" data-aos-duration="1000">________Team Members________</h6>
+     <h1 class="text-center fw-bold" data-aos="fade-up" data-aos-duration="1000">Our Master Chefs</h1>
+    </div>
+<center>
+  <div class="row row-cols-1 row-cols-md-4 g-4 my-5 container">
+    <div class="col" data-aos="fade-up" data-aos-duration="1000">
+      <div class="card">
+        <div class="card-body">
+          <img src="https://themewagon.github.io/restoran/img/team-1.jpg" alt="" srcset="" class="img-fluid img-thumbnai rounded-pill">
+          <h5 class="card-title fw-bold">Full Name</h5>
+         <h6>Designation</h6>
+         <i class="fa-brands fa-facebook fa-2x" style="color: #FFD43B;"></i> <i class="fa-brands fa-twitter fa-2x" style="color: #FFD43B;"></i> <i class="fa-brands fa-instagram fa-2x" style="color: #FFD43B;"></i>
+        </div>
+      </div>
+    </div>
+    <div class="col" data-aos="fade-up" data-aos-duration="1000">
+     <div class="card">
+        <div class="card-body">
+          <img src="https://themewagon.github.io/restoran/img/team-2.jpg" alt="" srcset="" class="img-fluid img-thumbnai rounded-pill" >
+          <h5 class="card-title fw-bold">Full Name</h5>
+         <h6>Designation</h6>
+         <i class="fa-brands fa-facebook fa-2x" style="color: #FFD43B;"></i> <i class="fa-brands fa-twitter fa-2x" style="color: #FFD43B;"></i> <i class="fa-brands fa-instagram fa-2x" style="color: #FFD43B;"></i>
+        </div>
+      </div>
+    </div>
+    <div class="col" data-aos="fade-up" data-aos-duration="1000">
+      <div class="card">
+        <div class="card-body">
+          <img src="https://themewagon.github.io/restoran/img/team-3.jpg" alt="" srcset=""  class="img-fluid img-thumbnai rounded-pill">
+          <h5 class="card-title fw-bold">Full Name</h5>
+        <h6>Designation</h6>
+        <i class="fa-brands fa-facebook fa-2x" style="color: #FFD43B;"></i> <i class="fa-brands fa-twitter fa-2x" style="color: #FFD43B;"></i> <i class="fa-brands fa-instagram fa-2x" style="color: #FFD43B;"></i>
+        </div>
+      </div>
+    </div>
+    <div class="col" data-aos="fade-up" data-aos-duration="1000">
+      <div class="card">
+        <div class="card-body">
+          <img src="https://themewagon.github.io/restoran/img/team-4.jpg" alt="" srcset=""  class="img-fluid img-thumbnai rounded-pill">
+          <h5 class="card-title fw-bold">Full Name</h5>
+         <h6> Designation</h6>
+         <i class="fa-brands fa-facebook fa-2x" style="color: #FFD43B;"></i> <i class="fa-brands fa-twitter fa-2x" style="color: #FFD43B;"></i> <i class="fa-brands fa-instagram fa-2x" style="color: #FFD43B;"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</center>
+<!-- end team-- -->
+<!-- teastimonial-- -->
+  <h5 class="text-center playwrite-us-trad-uniquifier fw-bold" style="color: orange;" data-aos="fade-up" data-aos-duration="1000">________Testimonial________</h5>
+  <h1 class="text-center fw-bold" data-aos="fade-up" data-aos-duration="1000">Our Clients Say!!!</h1>
+  <div class="container">
+      <div class="row row-cols-1 row-cols-md-4 g-4 py-5">
+       <div class="col" data-aos="fade-up" data-aos-duration="1000">
+        <div class="card">
+          <div class="card-body">
+            <i class="fa-solid fa-quote-left fa-3x" style="color: #FFD43B;"></i>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            <div class="row">
+              <div class="col-sm-6"><img src="https://themewagon.github.io/restoran/img/testimonial-2.jpg" alt="" srcset=""  class="img-fluid img-thumbnai rounded-pill"></div>
+              <div class="col-sm-6">
+                <h6 class="fw-bold">Client Name</h6>
+                <h6>Profeesion</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- </div> -->
+      <!-- <div class="item"> -->
+        <div class="col" data-aos="fade-up" data-aos-duration="1000">
+          <div class="card">
+            <div class="card-body">
+              <i class="fa-solid fa-quote-left fa-3x" style="color: #FFD43B;"></i>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <div class="row">
+                <div class="col-sm-6"><img src="https://themewagon.github.io/restoran/img/testimonial-1.jpg" alt="" srcset=""  class="img-fluid img-thumbnai rounded-pill"></div>
+                <div class="col-sm-6">
+                  <h6 class="fw-bold">Client Name</h6>
+                  <h6>Profeesion</h6>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+      <!-- </div> -->
+      <!-- <div class="item"> -->
+        <div class="col" data-aos="fade-up" data-aos-duration="1000">
+          <div class="card">
+            <div class="card-body">
+              <i class="fa-solid fa-quote-left fa-3x" style="color: #FFD43B;"></i>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <div class="row">
+                <div class="col-sm-6"><img src="https://themewagon.github.io/restoran/img/testimonial-4.jpg" alt="" srcset=""  class="img-fluid img-thumbnai rounded-pill"></div>
+                <div class="col-sm-6">
+                  <h6 class="fw-bold">Client Name</h6>
+                  <h6>Profeesion</h6>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+      <!-- </div> -->
+      <!-- <div class="item"> -->
+        <div class="col" data-aos="fade-up" data-aos-duration="1000">
+          <div class="card">
+            <div class="card-body">
+              <i class="fa-solid fa-quote-left fa-3x" style="color: #FFD43B;"></i>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <div class="row">
+                <div class="col-sm-6"><img src="https://themewagon.github.io/restoran/img/testimonial-3.jpg" alt="" srcset=""  class="img-fluid img-thumbnai rounded-pill"></div>
+                <div class="col-sm-6">
+                  <h6 class="fw-bold">Client Name</h6>
+                  <h6>Profeesion</h6>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
+    <!-- </div> -->
+     <!-- end testimonial-- -->
+      <!-- footer-- -->
+       <div class="container-fluid" style="color: white; background-color: black;" data-aos="fade-up" data-aos-duration="1000">
+<div class="row row-cols-1 row-cols-md-4 g-5 my-5">
+  <div class="col">
+    <h6 class="playwrite-us-trad-uniquifier fw-bold" style="color: orange;">Company_______
+    </h6>
+    <i class="fa-solid fa-angle-right"></i>  About Us <br> <br>
+    <i class="fa-solid fa-angle-right"></i>  Contact Us <br> <br>
+    <i class="fa-solid fa-angle-right"></i>  Reservation <br> <br>
+    <i class="fa-solid fa-angle-right"></i>  Privacy Policy <br> <br>
+    <i class="fa-solid fa-angle-right"></i>  Terms & Condition
+  </div>
+  <div class="col">
+    <h6 class="playwrite-us-trad-uniquifier fw-bold" style="color: orange;">Contact________</h6>
+    <i class="fa-solid fa-location-dot" style="color: #FFD43B;"></i>  123 Street, Sirki Muhalla, Okara <br> <br>
+    <i class="fa-solid fa-phone" style="color: #FFD43B;"></i>   03010971755  <br> <br> <br>
+    <i class="fa-solid fa-envelope" style="color: #FFD43B;"></i>  info@example.com <br> <br> <br>
+    <i class="fa-brands fa-twitter fa-2x" style="color: white;"></i>
+    <i class="fa-brands fa-facebook fa-2x" style="color: white;"></i>
+    <i class="fa-brands fa-youtube fa-2x" style="color: white;"></i>
+    <i class="fa-brands fa-linkedin fa-2x" style="color: white;"></i>
+
+  </div>
+  <div class="col">
+    <h6 class="playwrite-us-trad-uniquifier fw-bold" style="color: orange;">Opening________</h6>
+    <h6>Monday-Saturday</h6> <br> <br>
+    09AM-09PM  <br> <br> <br>
+    <h6>Sunday</h6> <br> 
+    10AM-8PM
+  </div>
+  <div class="col">
+    <h6 class="playwrite-us-trad-uniquifier fw-bold" style="color: orange;">Newsletter________</h6>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, non.</p>
+    <div class="form-floating">
+      <input type="email" class="form-control" id="floatingInputGrid" placeholder="Your email">
+      <label for="floatingInputGrid" style="color: black;">Your email
+        <a href="http://google.com">
+      <button type="button" class="btn sm-btn ms-5" style="color: white; background-color: orange;">SIGN UP</button>
+    </a>
+    </label>
+    </div>
+  </div>
+</div>
+<hr class="w-75 m-auto">
+<div class="row py-4 container">
+  <div class="col-md-6">
+    <p>&copy; 2024 - All Right Reserved.</p> <br>
+    <p class="ms-2">Designed By <a href="https://apnadeveloper.com">apnadeveloper</a></p>
+  </div>
+  <div class="col-md-6 text-end ">
+    Home  | Cookies   | FQAs
+  </div>
+</div>
+       </div>
+       <!-- end footer-- -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
